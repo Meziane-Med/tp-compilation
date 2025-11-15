@@ -1,0 +1,33 @@
+Script ACAD_B;
+Vars
+count, limit: Int;
+result: Real;
+Code
+Begin
+{
+count := 7;
+limit := 20;
+result := limit / count + 2 * 3;
+write(' this is the result');
+
+If(3==4){
+     write('If syntaxiquement correct ');
+}Else{
+     write('else syntaxiquement correct');
+}EndIf;
+
+
+Do{
+     write('while syntaxiquement correct');
+} While (3 == 2);
+
+
+For i de 1 à 10 pas 2 {
+    write('for syntaxiquement correct');
+}
+
+}
+Finish
+
+
+
